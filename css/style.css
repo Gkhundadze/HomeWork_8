@@ -39,7 +39,7 @@ body{
     height: 30px;
     top:48%;
     left:47%;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -50%);
     z-index: 4;
     animation: move 0.5s infinite;
 }
@@ -47,3 +47,4 @@ body{
     from {top: 48%;}
     to {top: 63%;}
 }
+
