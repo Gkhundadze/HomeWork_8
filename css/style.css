@@ -14,14 +14,20 @@ body{
 .section-div{
     height: 100%;
     width: 100%;
-    background-color: #333399;
+    background-color: hsl(240, 75%, 85%);
     padding: 2%;
+    border: 2px solid #966969;
+    /* background-image: url(https://bit.ly/32EQLer);
+    background-repeat: no-repeat;
+    background-size: cover; */
 
 }
 .green-box{
     height: 100%;
     width: 100%;
-    background-color: #00cc00;
+    background-image: url(https://www.stickpng.com/assets/images/580b585b2edbce24c47b26be.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .chicken-box{
     height: 100%;
@@ -47,4 +53,3 @@ body{
     from {top: 48%;}
     to {top: 63%;}
 }
-
