@@ -4,6 +4,7 @@ html, body{
 }
 body{
     padding: 2%;
+    font-family: like-an-old;
 }
 .relative{
     position: relative;
@@ -47,9 +48,44 @@ body{
     left:47%;
     transform: translate(-50%, -50%);
     z-index: 4;
-    animation: move 0.5s infinite;
+    animation: move 1.5s infinite;
+    animation-delay: 2s;
+    /* animation-duration: 3s; */
+    animation-timing-function:ease; 
 }
 @keyframes move{
     from {top: 48%;}
     to {top: 63%;}
+}
+.title-box{
+    top: 48%;
+    left: 45%;
+    transform: translate(-48%, -45%);
+    z-index: 55;
+    color: cornsilk;
+    animation: title 3s infinite; */
+    animation-delay: 4s;
+}
+@keyframes title{
+    0%   {font-size:1px;}
+    5%   {font-size:5px;}
+    10%  {font-size:10px;}
+    15%  {font-size:15px;}
+    20%  {font-size:20px;}
+    25%  {font-size:25px;}
+    30%  {font-size:30px;}
+    35%  {font-size:35px;}
+    40%  {font-size:40px;}
+    45%  {font-size:45px;}
+    50%  {font-size:50px;}
+    55%  {font-size:55px;}
+    60%  {font-size:60px;}
+    65%  {font-size:65px;}
+    70%  {font-size:70px;}
+    75%  {font-size:75px;}
+    80%  {font-size:80px;}
+    85%  {font-size:85px;}
+    90%  {font-size:85px;}
+    95%  {font-size:85px;}
+    100% {font-size:85px;}
 }
