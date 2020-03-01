@@ -1,0 +1,26 @@
+body{
+    height: 100%;
+    width: 100%;
+    padding: 2%;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.section-section{
+    height: 100%;
+    width: 100%;
+}
+.section-div{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    padding: 2%;
+}
+.main-box{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+}
