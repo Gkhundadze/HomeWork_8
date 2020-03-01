@@ -16,12 +16,19 @@ body{
     height: 100%;
     width: 100%;
     background-color: hsl(240, 75%, 85%);
-    /* padding: 2%; */
     border: 2px solid #966969;
-    /* background-image: url(https://bit.ly/32EQLer);
-    background-repeat: no-repeat;
-    background-size: cover; */
-
+    animation: night 3s infinite;
+    animation-delay: 1s;
+    animation-timing-function:ease; 
+}
+@keyframes night{
+    0%   {background-color:#bcbcf5;}
+    20%  {background-color:#616199;}
+    40%  {background-color:#4c4c78;}
+    60%  {background-color:#353553;}
+    80%  {background-color:#252538;}
+    90%  {background-color:#1a1a28;}
+    100% {background-color:#07070b;}
 }
 .green-box{
     height: 100%;
