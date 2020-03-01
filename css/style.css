@@ -16,7 +16,7 @@ body{
     height: 100%;
     width: 100%;
     background-color: hsl(240, 75%, 85%);
-    padding: 2%;
+    /* padding: 2%; */
     border: 2px solid #966969;
     /* background-image: url(https://bit.ly/32EQLer);
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@ body{
 .green-box{
     height: 100%;
     width: 100%;
-    background-image: url(https://www.stickpng.com/assets/images/580b585b2edbce24c47b26be.png);
+    /* background-image: url(https://www.stickpng.com/assets/images/580b585b2edbce24c47b26be.png); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -35,36 +35,39 @@ body{
     width: 100%;
 }
 .chicken{
-    height: 200px;
+    height: 48%;
     top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    left:49%;
+    transform: translate(-50%,-49%);
     z-index: 5;
     
 }
 .egg {
-    height: 30px;
+    height: 7%;
     top:48%;
-    left:47%;
-    transform: translate(-50%, -50%);
+    left:45%;
+    transform: translate(-50%, -45%);
     z-index: 4;
     animation: move 1.5s infinite;
-    animation-delay: 2s;
+    animation-delay: 3.5s;
     /* animation-duration: 3s; */
     animation-timing-function:ease; 
 }
 @keyframes move{
     from {top: 48%;}
-    to {top: 63%;}
+    to {top: 69%;}
 }
 .title-box{
-    top: 8%;
-    left: 45%;
+    top: 15%;
+    left: 53%;
     transform: translate(-48%, -45%);
     z-index: 55;
     color: cornsilk;
     animation: title 3s infinite;
-    animation-delay: 4s;
+    animation-delay: 1s;
+    animation-timing-function:ease; 
+    text-shadow: 2px 2px 9px rgb(245, 235, 235);
+    white-space: nowrap;
 }
 @keyframes title{
     0%   {font-size:1px;}
