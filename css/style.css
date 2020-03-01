@@ -17,8 +17,8 @@ body{
     width: 100%;
     background-color: hsl(240, 75%, 85%);
     border: 2px solid #966969;
-    animation: night 3s infinite;
-    animation-delay: 1s;
+    animation: night 5s infinite;
+    animation-delay: 1.5s;
     animation-timing-function:ease; 
 }
 @keyframes night{
