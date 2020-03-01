@@ -58,12 +58,12 @@ body{
     to {top: 63%;}
 }
 .title-box{
-    top: 48%;
+    top: 8%;
     left: 45%;
     transform: translate(-48%, -45%);
     z-index: 55;
     color: cornsilk;
-    animation: title 3s infinite; */
+    animation: title 3s infinite;
     animation-delay: 4s;
 }
 @keyframes title{
