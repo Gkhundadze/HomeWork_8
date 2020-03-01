@@ -11,51 +11,39 @@ body{
 .absolute{
     position: absolute;
 }
-.section-section{
-    height: 100%;
-    width: 100%;
-}
 .section-div{
     height: 100%;
     width: 100%;
-    background-color: aquamarine;
+    background-color: #333399;
     padding: 2%;
-}
-.main-box{
-    height: 100%;
-    width: 100%;
-    background-color: rgb(100, 41, 41);
-}
-.left-box{
-    height: 100%;
-    width: 100%;
-    display: inline-block;
 
 }
-.right-box{
+.green-box{
     height: 100%;
     width: 100%;
+    background-color: #00cc00;
 }
 .chicken-box{
     height: 100%;
     width: 100%;
 }
-.chicken-box img{
-    height: 363px;
-    bottom: 1px;
-    left:36%;
+.chicken{
+    height: 200px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
     z-index: 5;
+    
 }
-.egg-box{
-    height: 100%;
-    width: 100%;
-}
-.egg-box img{
-    height: 28px;
+.egg {
+    height: 30px;
+    top:48%;
+    left:47%;
+    transform: translate(-50%, -60%);
     z-index: 4;
-    bottom: 132px;
-    left: 54%;
+    animation: move 3s infinite;
 }
-.egg:hover {
-    transform: rotate(90deg);
+@keyframes move{
+    from {left: 48%;}
+    to {top: 73%;}
 }
